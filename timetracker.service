@@ -1,0 +1,8 @@
+[Unit]
+Description=Timetracker Collector Daemon
+
+[Service]
+ExecStart=/TimeTracker/collect.py
+
+[Install]
+WantedBy=default.target
